@@ -41,3 +41,7 @@ body {
 .navbar-inverse {
     background-color: #512da8
 }
+
+.box {
+    padding: 0px 0px 0px 5px;
+}
