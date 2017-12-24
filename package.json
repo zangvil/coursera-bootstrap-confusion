@@ -11,10 +11,15 @@
   "author": "",
   "license": "ISC",
   "devDependencies": {
-    "lite-server": "^2.2.2"
+    "lite-server": "^2.3.0"
   },
   "dependencies": {
     "bootstrap": "^4.0.0-alpha.6",
     "font-awesome": "^4.7.0"
-  }
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://zangvil@bitbucket.org/zangvil/confusion.git"
+  },
+  "homepage": "https://bitbucket.org/zangvil/confusion#readme"
 }
