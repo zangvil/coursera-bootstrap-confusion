@@ -13,3 +13,27 @@ $(document).ready(function() {
         }
     });
 });
+
+$(document).ready(function() {
+    $('#reserveButton').click(function () {
+        $('#reserveModal').modal('show')
+    });
+    $('#closeReserveModal').click(function() {
+        $('#reserveModal').modal('hide')
+    });
+    $('#cancelReserveModal').click(function(event) {
+        $('#reserveModal').modal('hide')
+    });
+});
+
+$(document).ready(function() {
+    $('#loginButton').click(function () {
+        $('#loginModal').modal('show')
+    });
+    $('#closeLoginModal').click(function() {
+        $('#loginModal').modal('hide')
+    });
+    $('#cancelLoginModal').click(function(event) {
+        $('#loginModal').modal('hide')
+    });
+});
